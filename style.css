@@ -1,0 +1,71 @@
+body, html {
+height: 100%;
+}
+
+
+.mth-heroback {
+  background-image: url(https://i.imgur.com/LTQMKdO.jpg);
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+/*  background-size: cover;*/
+
+}
+
+h1 {
+color: white;
+font-family: "Helvetica Neue", "Arial", sans-serif;
+font-size: 3em;
+font-weight: 100;
+letter-spacing: .3px;
+
+}
+
+
+.mthlogo-container {
+  width: 250px;
+  padding: 30px 30px;
+}
+
+#mth-menubar {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+align: right;
+margin: 30px
+
+}
+
+a:link {
+  text-decoration: none;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 200;
+  color:  white;
+}
+
+a:hover {
+  background-color: hotpink;
+}
+
+/* ul li a:hover {
+  background: #93cb52;
+  border-radius: 1px;
+}
+*/
+/*.mth-rightside {
+  width: 50px;
+  height: 50px;
+  background-color: lightgrey;
+  border: 0;
+}*/
+
+/*.mth-rightside {
+justify-content: flex-end;
+}
+*/
+
+
