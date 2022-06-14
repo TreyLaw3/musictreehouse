@@ -54,6 +54,30 @@ a:hover {
 
 .navbar-expand{-sm|-md|-lg|-xl|-xxl}
 
+/* css column addition starts  */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+/* css column addition ends */
+
+
+
+/* css collapse to one column */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* css collapseto one column end  */
+
 /* ul li a:hover {
   background: #93cb52;
   border-radius: 1px;
