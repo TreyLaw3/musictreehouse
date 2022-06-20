@@ -50,6 +50,13 @@ a:link {
   color:  white;
 }
 
+.btn-link {
+  text-decoration: none;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 200;
+/*   color:  black;   */
+}
+
 a.nav-link:hover {
   background-color: transparent;
 border: solid 1px #fff;
@@ -79,6 +86,25 @@ border: solid 1px #fff;
   }
 }
 
+
+/*side menu practice  */
+
+.mth-side-menu {
+  padding-top: 25px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.dropdown-item2 {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+/* side menu practice ended*/
 
 /* @media (max-width: 1020px) {
 .h1 {

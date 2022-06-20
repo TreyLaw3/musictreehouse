@@ -59,7 +59,9 @@
             
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item1" href="#connect">let's connect</a></li>
-                <li><a class="dropdown-item2" href="#your information">your information</a></li>
+                <li><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  your information
+</button></li>
                 <li><a class="dropdown-item3" href="#">schedule observation</a></li>
 
 <!-- additional -->
@@ -85,14 +87,93 @@
         </div>
       </div>
     </nav>
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <aside class="mth-contact-info" id="mth-slide-contact">
+    
+   <h1>Great to hear from you!</h1>
+<!-- <h2>Please fill-out this form.</h2> -->
+<form id="mth-contact-info">
+<p>Please be sure fill out this form.
+
+We will reach out to you shortly to chat about getting started.</p>
+
+
+<!-- new form start -->
+<fieldset>
+  <!--  -->
+
+<div class="form-row">
+      <label for="name">my name is</label>
+      <div class="name-boxes">
+        <input type="text" name="name[first]" placeholder="first" id="first-name" autofocus="">
+        <input type="text" name="name[last]" placeholder="last" id="last-name">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="phone">phone number</label>
+      <div class="phone-number-fields">
+        <input type="text" name="phone[area_code]" class="phone" maxlength="3" id="phone-area-code"> —
+        <input type="text" name="phone[prefix]" class="phone" maxlength="3" id="phone-prefix"> —
+        <input type="text" name="phone[line_number]" class="phone" maxlength="4" id="phone-line-number">
+      </div>
+    </div>
+
+
+        <div class="form-row">
+      <label for="name">my email</label>
+      <div class="name-boxes">
+        <input type="text" name="email[email]" placeholder="your email address" id="email-address" autofocus="">
+
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="piano-skills">my skills</label>
+      <div class="skills-box">
+      <textarea name="piano-skills" id="piano-skills"></textarea>
+    </div>
+  </div>
+
+
+    <input type="submit" value="Send" class="shiny-button">
+
+</fieldset>
+</form>
+<ul id="errors"></ul> 
+<!-- 
+    </div>
+  </div> -->
+
+</aside>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- Bootstrap nav bar html end -->
-
+<!-- 
    <header>
 
-       <div class="mth-leftside">
+       <div class="mth-leftside"> -->
 <!--       <img src="https://i.imgur.com/eeh7joA.png?2" title="source: imgur.com" alt="musictree art" class="mthlogo-container"> -->
 
 
@@ -113,11 +194,11 @@
 <!-- html copy for pages ended -->
 
 
-</section> 
-    </div>
+<!-- </section>  -->
+<!--     </div> -->
      
-</header>
-</nav>
+<!-- </header>
+</nav> -->
 <div class="mth-main-content">
     <section class="mth-heroback" style="
     max-width: none;
@@ -238,9 +319,20 @@ As parents, only you can determine which method is best for your children and yo
   
 <div id="contact" class="mth-oompah"><h2>contact</h2><a href="#top">from the top</a></div>
 <p>
-
 We'd love to explore music opportunities with you and your child. Setup an observation, have a discussion over zoom, no matter the time frame it is the perfect time to start a fulfilling musical journey into the rich history and enjoyment of playing piano. Music can also be a bonding child for you and your child where practies and lessons can launch a child into an array of other studies . </p>
+
+<p>
+
+You can reach us at:
+<div class="mth-teacher"></div>
+<h6>Allyson Walker</h6>
+<h6>Music Treehouse/Piano Instructor</h6>
+<a href="mailto:allysondenisewalker@gmail.com">allysondenisewalker@gmail.com</a>
+<!-- 
+
+<div id="lets-connect" class="mth-oompah-dropdown"><a href="#top">from the top</a></div> -->
 <a href="#connect">let's connect</a>
+</p>
 <p>
 Music Treehouse Piano Studio is pleased to offer Suzuki piano lessons for interested families as well as traditional lessons. You may be wondering what the difference is between the two teaching styles.
 </p>
@@ -264,11 +356,10 @@ As parents, only you can determine which method is best for your children and yo
 <a href="#top">from the top</a>
 </p>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-
+     
 <!-- aside contact form -->
 
-<aside class="side-menu-position side-menu-design " id="side-menu">
+<!-- <aside class="side-menu-position side-menu-design " id="side-menu">
   <header class="side-menu-header">
     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/slack.svg" alt="Slack logo">
     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/x.svg" alt="Close this menu" id="menu-close">
@@ -282,7 +373,7 @@ As parents, only you can determine which method is best for your children and yo
   </ul>
 </aside>
 
-  
+   -->
 <!-- aside contact form ends  -->
 
   
@@ -293,7 +384,7 @@ As parents, only you can determine which method is best for your children and yo
   <div class="mth-contact-info">
     <span class="take-a-bow">&times;</span>
  -->
-<aside class="mth-contact-info" id="side-menu">
+<aside class="mth-contact-info" id="mth-slide-contact">
     
    <h1>Great to hear from you!</h1>
 <!-- <h2>Please fill-out this form.</h2> -->
@@ -349,6 +440,11 @@ We will reach out to you shortly to chat about getting started.</p>
 
     </div>
   </div>
+
+</aside>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
  </body>
 
 </html>
