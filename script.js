@@ -4,10 +4,10 @@ const dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootst
 
 
 // Get the modal
-let modal = document.getElementById("dropdown-item2");
+let modal = document.getElementById("mth-contact-info");
 
 // Get the button that opens the modal
-let btn = document.getElementById("contactModal");
+let btn = document.getElementById("mth-contact-info");
 
 // Get the <span> element that closes the modal
 let span = document.getElementsByClassName("take-a-bow")[0];
