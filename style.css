@@ -43,11 +43,12 @@ align: right;
 margin: 30px
 }
 
+
 a:link {
   text-decoration: none;
   font-family: "Helvetica Neue", "Arial", sans-serif;
   font-weight: 200;
-  color:  white;
+/*   color:  white; */
 }
 
 .btn-link {
@@ -62,8 +63,15 @@ a.nav-link:hover {
 border: solid 1px #fff;
 }
 
+a.nav-link {
+  color: white;
+}
 .navbar-expand{-sm|-md|-lg|-xl|-xxl}
 
+.dropdown-menu a{
+color: gray;
+padding: 8px;
+}
 /* css column addition starts  */
 
 .row {
