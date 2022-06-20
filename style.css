@@ -86,7 +86,9 @@ padding: 8px;
 
 /* css column addition ends */
 
-
+.piano-images {
+max-width: 100%;
+}
 
 /* css collapse to one column */
 
