@@ -3,9 +3,9 @@ height: 100%;
 scroll-behavior: smooth;
 }
 
-*{
+/* *{
 border: 1px red solid;
-}
+} */
 .mth-heroback {
   background-image: url(https://i.imgur.com/LTQMKdO.jpg);
   background-size: cover;
@@ -19,8 +19,8 @@ border: 1px red solid;
 min-height: 45vh;
   padding-bottom: 32px;
   background-attachment: fixed;
-  width: calc(100%) 64px);
-  margin-left: -32px;
+  width: calc(100%) 64px;
+/*   margin-left: -32px; */
 }
 
 h1 {
@@ -92,10 +92,15 @@ max-width: 100%;
 
 /* css collapse to one column */
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .column {
     width: 100%;
   }
+.mth-heroback {
+ background-size: cover; 
+  width: 100vw;
+background-position: bottom;
+}
 }
 
 
