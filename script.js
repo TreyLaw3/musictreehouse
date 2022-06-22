@@ -29,7 +29,6 @@ const dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootst
 //   }
 // }
 
-// let
 
 let navbarDropdownMenuLink = document.querySelector("#navbarDropdownMenuLink");
 console.log(navbarDropdownMenuLink);
