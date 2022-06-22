@@ -31,6 +31,9 @@ font-weight: 100;
 letter-spacing: .3px;
 }
 
+h2 {
+  color: black;
+}
 
 .mthlogo-container {
   width: 250px;
